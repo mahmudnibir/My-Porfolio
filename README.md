@@ -1,7 +1,7 @@
 <img src="./Preview.png">
 <div align="center">
     <a href="https://github.com/K1rsN7/portfolio/stargazers">
-        <img src="https://img.shields.io/github/stars/K1rsN7/portfolio?color=8FBAD0&labelColor=3D4245&style=for-the-badge" alt="Stars">
+        <img src="https://img.shields.io/github/stars/mahmudnibir/My-Porfolio?color=8FBAD0&labelColor=3D4245&style=for-the-badge" alt="Stars">
     </a>
 </div>
 <h1 align="center">My Portfolio</h1>
