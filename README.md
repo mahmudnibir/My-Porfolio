@@ -1,9 +1,19 @@
-<img src="./Preview.png">
-<div align="center">
-    <a href="https://github.com/K1rsN7/portfolio/stargazers">
-        <img src="https://img.shields.io/github/stars/mahmudnibir/My-Porfolio?color=8FBAD0&labelColor=3D4245&style=for-the-badge" alt="Stars">
-    </a>
-</div>
+![GitHub Repo stars](https://img.shields.io/github/stars/mahmudnibir/My-Porfolio?style=social) 
+![GitHub forks](https://img.shields.io/github/forks/mahmudnibir/My-Porfolio?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/mahmudnibir/My-Porfolio)
+![GitHub issues](https://img.shields.io/github/issues/mahmudnibir/My-Porfolio)
+![GitHub last commit](https://img.shields.io/github/last-commit/mahmudnibir/My-Porfolio)
+![GitHub license](https://img.shields.io/github/license/mahmudnibir/My-Porfolio)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/mahmudnibir/My-Porfolio)
+![GitHub Code Size](https://img.shields.io/github/languages/code-size/mahmudnibir/My-Porfolio)
+![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-blue) 
+
+---
+> [!NOTE]
+ This project is for my porfolio
+
+---
+
 <h1 align="center">My Portfolio</h1>
 <p>Welcome to my portfolio! This website is a collection of my projects, achievements, and skills. Here you will find information about my work, certificates, and the technologies I work with.</p>
 
@@ -24,7 +34,6 @@
             <li><strong><code>js/</code></strong> - JavaScript files for website interactivity.</li>
         </ul>
     </li>
-    <li><strong><code>Preview.png</code></strong> - Website preview.</li>
     <li><strong><code>README.md</code></strong> - This file.</li>
 </ul>
 
@@ -37,8 +46,33 @@
 </ul>
 
 <h2 align="center">Contacts</h2>
+
+
+## License  
+
+📝 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
+
+---
+
+## Contact  
 <p>Contact me via:</p>
 <ul>
     <li><a href="https://facebook.com/nibirmahmud17">Facebook
     </a></li>
 </ul>
+
+*Developed by [Nibir Mahmud](https://github.com/mahmudnibir)*
+
+
+📧 **Email**: [nibirbbkr@gmail.com](mailto:nibirbbkr@gmail.com)  
+🐦 **Github**: [@mahmudnibir](https://github.com/mahmudnibir)    
+
+---
+
+
+## Support  
+
+> [!NOTE]
+If you find this project helpful, **please consider giving it a star ⭐ on GitHub!** It helps others discover the project.  
+
+---
