@@ -1,9 +1,11 @@
 backend:
   name: github
-  repo: mahmudnibir/My-Porfolio   # Replace with your GitHub username/repo if different
+  repo: mahmudnibir/My-Porfolio   # replace with your GitHub username/repo if different
   branch: main                           # or 'master' if your default branch
+  auth_type: "token"
+  token: "{{ GITHUB_TOKEN }}"            # pulls the token from Netlify environment variable
 
-media_folder: "assests/images/uploads"  # folder where images will be saved
+media_folder: "assests/images/uploads"   # folder where images will be saved
 public_folder: "/assests/images/uploads" # path used in your site
 
 collections:
