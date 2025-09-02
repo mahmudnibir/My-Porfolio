@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: mahmudnibir/My-portfolio
-  branch: main
+  repo: mahmudnibir/My-portfolio   # replace with your GitHub username/repo if different
+  branch: main                             # or 'master' if that's your default branch
 
-media_folder: "Assets/images/uploads"
-public_folder: "/Assets/images/uploads"
+media_folder: "Assets/images/uploads"     # images will be saved here
+public_folder: "/Assets/images/uploads"   # path used in site
 
 collections:
   - name: "pages"
@@ -14,5 +14,17 @@ collections:
         label: "Home Page"
         name: "home"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Page Title", name: "title", widget: "string" }
+          - { label: "Header Text", name: "header", widget: "string" }
+          - { label: "About Section", name: "about", widget: "markdown" }
+          - { label: "Contact Info", name: "contact", widget: "markdown" }
+
+  - name: "projects"
+    label: "Projects"
+    folder: "Assets/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Project Title", name: "title", widget: "string" }
+      - { label: "Project Description", name: "description", widget: "markdown" }
+      - { label: "Project Image", name: "image", widget: "image" }
