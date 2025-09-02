@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: mahmudnibir/My-portfolio   # replace with your GitHub username/repo if different
+  repo: mahmudnibir/My-Porfolio   # replace with your GitHub username/repo if different
   branch: main                             # or 'master' if that's your default branch
 
 media_folder: "Assets/images/uploads"     # images will be saved here
