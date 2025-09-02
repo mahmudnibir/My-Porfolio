@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: mahmudnibir/My-Porfolio
-  branch: main # or master if that's your default branch
+  repo: mahmudnibir/My-portfolio
+  branch: main
 
 media_folder: "Assets/images/uploads"
 public_folder: "/Assets/images/uploads"
