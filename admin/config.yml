@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: mahmudnibir/My-Porfolio
+  branch: main # or master if that's your default branch
+
+media_folder: "Assets/images/uploads"
+public_folder: "/Assets/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "index.html"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
