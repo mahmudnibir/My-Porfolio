@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: mahmudnibir/My-Porfolio   # your GitHub repo
   branch: main                    # or 'master' if your default branch
 
