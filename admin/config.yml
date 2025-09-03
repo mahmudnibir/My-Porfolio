@@ -1,32 +1,29 @@
 backend:
   name: github
-  repo: mahmudnibir/My-Porfolio   # replace with your GitHub username/repo if different
-  branch: main                           # or 'master' if your default branch
-  auth_type: "token"
-  token: "{{ GIT_TOKEN }}"            # pulls the token from Netlify environment variable
+  repo: mahmudnibir/My-Porfolio   # your GitHub repo
+  branch: main                    # or 'master' if your default branch
 
-media_folder: "assests/images/uploads"   # folder where images will be saved
-public_folder: "/assests/images/uploads" # path used in your site
+media_folder: "assests/images/uploads"
+public_folder: "/assests/images/uploads"
 
 collections:
   - name: "pages"
     label: "Pages"
     files:
       - file: "index.html"
-        label: "Home Page"
+        label: "Home"
         name: "home"
         fields:
-          - { label: "Page Title", name: "title", widget: "string" }
-          - { label: "Header Text", name: "header", widget: "string" }
-          - { label: "About Section", name: "about", widget: "markdown" }
-          - { label: "Contact Info", name: "contact", widget: "markdown" }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Bio", name: "bio", widget: "markdown" }
 
   - name: "projects"
     label: "Projects"
-    folder: "assests/projects"      # folder where project entries will be stored
+    folder: "assests/projects"
     create: true
-    slug: "{{slug}}"
     fields:
-      - { label: "Project Title", name: "title", widget: "string" }
-      - { label: "Project Description", name: "description", widget: "markdown" }
-      - { label: "Project Image", name: "image", widget: "image" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
